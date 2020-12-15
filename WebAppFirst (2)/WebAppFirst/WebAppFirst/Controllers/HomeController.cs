@@ -18,7 +18,7 @@ namespace WebAppFirst.Controllers
             else ViewBag.LoggedStatus = "In";
             return View();
         }
-
+        
         public ActionResult About()
         {
             ViewBag.Message = "Yhtiön perustietojen kuvailua";
